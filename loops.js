@@ -6,8 +6,8 @@ function forLoop(array){
   return array
 }
 
-function whileLoop(array){
-  var n = Math.random();
+function whileLoop(n){
+  n = Math.random();
   while (n > 0){
     console.log(n--);
   }
