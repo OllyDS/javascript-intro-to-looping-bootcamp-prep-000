@@ -7,8 +7,8 @@ function forLoop(array){
 }
 
 function whileLoop(n){
-  n = Math.floor(Math.random() * 100);
-  while (n => 0){
+  n = Math.random();
+  while (n > 0){
     console.log(--n);
   }
 }
