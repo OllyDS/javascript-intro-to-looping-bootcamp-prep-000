@@ -6,10 +6,10 @@ function forLoop(array){
   return array
 }
 
-function whileLoop(n){
-  n = Math.random();
+function whileLoop(array){
+  var n = Math.random();
   while (n > 0){
     console.log(n--);
   }
-  return "done"
+  return array
 }
