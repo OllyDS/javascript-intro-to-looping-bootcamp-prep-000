@@ -9,7 +9,8 @@ function forLoop(array){
 function whileLoop(n){
   n = Math.random();
   while (n > 0){
-    console.log(n--);
+    console.log(n);
+    n--
   }
   return "done"
 }
